@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>CSV Importer</title>
+    
+</head>
+
+<body>
+
+    <h1>CSV Importer</h1>
+    
+    <input type="file" id="csvFile" accept=".csv"><br><br>
+    
+    <label>Select Columns to Import:</label><br>
+    <select multiple="multiple" id="columns"></select><br><br>
+    
+    <button onclick="importCsv1()">Import CSV</button>
+    
+    <div id="result"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
